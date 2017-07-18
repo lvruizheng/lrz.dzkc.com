@@ -53,7 +53,7 @@ class HomeController extends Controller
 		*/
 		
         
-        
-        return view('home');
+        return view('home')->withArticles(\App\Models\Article::all());
+        //return view('home');
     }
 }
