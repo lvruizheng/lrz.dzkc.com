@@ -19,7 +19,12 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+//get 登陆
+$this->get('logout', 'Auth\LoginController@logout')->name('logout');
+
 Route::get('article/{id}', 'ArticleController@show');
+Route::get('article/{id}/ajaxpage', 'ArticleController@ajaxpage');
+Route::get('article/{id}/ajaxmore', 'ArticleController@ajaxmore');
 
 Route::post('comment', 'CommentController@store');
 

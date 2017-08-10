@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use \Common\Common;
 use GuzzleHttp\Client;
+use \App\Models\Article;
 
 class HomeController extends Controller
 {
@@ -51,9 +52,8 @@ class HomeController extends Controller
 		var_dump(json_decode($response->getBody(), true));die;
 		
 		*/
-		
         
-        return view('home')->withArticles(\App\Models\Article::all());
+        return view('home')->withArticles(Article::all());
         //return view('home');
     }
 }

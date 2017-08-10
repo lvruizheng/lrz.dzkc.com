@@ -43,8 +43,8 @@
                     <ul class="nav navbar-nav navbar-right">
                         <!-- Authentication Links -->
                         @if (!Cookie::get('nk'))
-                            <li><a href="http://lrz.ucenter.com/login?redirectURL={{ urlencode(Request::url()) }}">Login</a></li>
-						    <li><a href="http://lrz.ucenter.com/register">Register</a></li>
+                            <li><a href="http://lrz.ucenter.com/login?redirectURL={{ urlencode(Request::url()) }}">登陆</a></li>
+						    <li><a href="http://lrz.ucenter.com/register">注册</a></li>
                         @else
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
