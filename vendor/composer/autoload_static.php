@@ -36,6 +36,7 @@ class ComposerStaticInitabcd4d2239e646ea3622f6ba475d17f9
         'AddPidToCommentsTable' => __DIR__ . '/../..' . '/database/migrations/2017_07_18_094455_add_pid_to_comments_table.php',
         'AddUpdateParentIdCommentsTable' => __DIR__ . '/../..' . '/database/migrations/2017_07_19_131035_add_update_parentId_comments_table.php',
         'AddUpdateTypeCommentsTable' => __DIR__ . '/../..' . '/database/migrations/2017_07_19_034115_add_update_type_comments_table.php',
+        'App\\Common\\AjaxPage' => __DIR__ . '/../..' . '/app/Common/AjaxPage.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\ArticleController' => __DIR__ . '/../..' . '/app/Http/Controllers/ArticleController.php',
